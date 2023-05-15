@@ -23,5 +23,8 @@
     <ClInclude Include="include\glad_wgl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\glad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
