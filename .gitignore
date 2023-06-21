@@ -5,6 +5,7 @@ cmake-time-*/
 **/doxygen.directory
 **/.vs
 **/CMakeFiles
+**/xcuserdata
 .DS_Store
 solution-android/packages
 solution-windows/packages
