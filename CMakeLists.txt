@@ -19,7 +19,7 @@ if(WIN32)
        #${PROJECT_NAME}/windows/tts_speaker.h
      #  )
 
-elseif(${LINUX} OR ${FREEBSD})
+elseif(${LINUX} OR ${__BSD__})
 
 
     list(APPEND library_source
