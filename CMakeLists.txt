@@ -87,7 +87,7 @@ target_include_directories(static_${PROJECT_NAME} PRIVATE ${library_include_dire
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
 
-target_compile_definitions(${PROJECT_NAME} PRIVATE _ID3_LIBRARY)
+target_compile_definitions(${PROJECT_NAME} PRIVATE _${PROJECT_NAME}_project)
 
 
 
