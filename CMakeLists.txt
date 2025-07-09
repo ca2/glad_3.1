@@ -48,7 +48,9 @@ if (MSVC)
     target_link_options(${PROJECT_NAME} PRIVATE "/DEFAULTLIB:msvcrt$<$<CONFIG:Debug>:d>")
     target_link_options(${PROJECT_NAME} PRIVATE "/SUBSYSTEM:WINDOWS")
     target_link_libraries(${PROJECT_NAME} PRIVATE ${library_references})
-    target_link_libraries(${PROJECT_NAME} PRIVATE ws2_32 winmm shlwapi)
+    set_target_properties(${PROJECT_NAME} PROPERTIES
+            WINDOWS_EXPORT_ALL_SYMBOLS ON
+    )
 elseif(LINUX OR FREEBSD)
 
 
