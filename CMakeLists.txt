@@ -23,7 +23,7 @@ elseif(${LINUX} OR ${__BSD__})
 
 
     list(APPEND library_source
-       glad_egl.c
+       #glad_egl.c
          )
 
 endif()
