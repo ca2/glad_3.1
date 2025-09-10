@@ -78,7 +78,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "glad_wgl.h"
+#include <glad/glad_wgl.h>
 
 static void* get_proc(const char *namez);
 
