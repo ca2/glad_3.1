@@ -51,7 +51,7 @@ if (MSVC)
     set_target_properties(${PROJECT_NAME} PROPERTIES
             WINDOWS_EXPORT_ALL_SYMBOLS ON
     )
-elseif(LINUX OR FREEBSD)
+elseif(${LINUX} OR ${__BSD__})
 
 
     #target_compile_options(${PROJECT_NAME} PRIVATE $<$<COMPILE_LANGUAGE:CXX>:-fpermissive  ${EXTRA_CXX_TARGET_COMPILER_OPTIONS}>)
