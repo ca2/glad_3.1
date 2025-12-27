@@ -8,7 +8,8 @@ project(glad CXX)
 
 
 list(APPEND library_source
-   glad.c
+   src/glad.c
+   src/glad_egl.c
    )
 
 
