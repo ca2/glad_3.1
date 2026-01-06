@@ -155,7 +155,7 @@
     <Import Project="..\..\..\operating_system\operating_system-windows\port_release.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'" Label="PropertySheets">
-    <Import Project="..\..\..\operating_system\operating_system-windows\port_debug.props" />
+    <Import Project="..\..\..\..\..\SceneFoundry\main\operating_system\operating_system-windows\port_release.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
     <Import Project="..\..\..\operating_system\operating_system-windows\port_release.props" />
